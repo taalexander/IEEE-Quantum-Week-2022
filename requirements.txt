@@ -1,0 +1,7 @@
+qiskit==0.38
+qiskit-ibm-runtime==0.6.2
+git+https://github.com/Qiskit/qiskit-ibm-provider.git
+jupyter
+notebook
+matplotlib
+scipy
