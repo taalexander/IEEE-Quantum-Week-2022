@@ -26,6 +26,7 @@ def run_openqasm3(
     init_num_resets: int = 3,
     init_delay: float = 0.,
     max_execution_time: int = 900,
+    program_id: str = "qasm3-runner",
     **run_config,
 ) -> List[RuntimeJob]:
     """Run a list of Qiskit circuits or QASM3 strings through the Qiskit runtime.
@@ -91,7 +92,7 @@ def run_openqasm3(
         "image": runtime_image,
     }
     job = backend.service.run(
-        program_id="qasm3-runner",
+        program_id=program_id,
         options=options,
         inputs=runtime_params,
         result_decoder=RunnerResult,
