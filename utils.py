@@ -72,7 +72,7 @@ def run_openqasm3(
                 print(qasm3.Exporter(includes=[], basis_gates=config.basis_gates).dumps(circuit))
                 print("==================")
                 if draw:
-                    print(circuit.draw(idle_wires=False))
+                    print(circuit.draw(idle_wires=False, output="text"))
                     print("==================")
             else:
                 print("=======QASM3======")
