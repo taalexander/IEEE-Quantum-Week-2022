@@ -4,6 +4,8 @@ To get started please see the [Hello IEEE notebook](./hello-ieee.ipynb). The tut
 
 **Presenters**: @ehchen, @mbhealy, @taalexander
 
+**Request Access**: thomas.a.alexander@ibm.com (A-M), mbhealy@ibm.com (N-Z)
+
 **Location**: Omni Interlocken Hotel, Broomfield, Colorado, USA
 
 **Room**: Ponderosa
